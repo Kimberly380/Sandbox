@@ -14,17 +14,17 @@
       page();
 
       function index() {
-        document.querySelector('p')
+        document.querySelector('p#original')
           .textContent = 'viewing index';
       }
 
       function about() {
-        document.querySelector('p')
+        document.querySelector('p#original')
           .textContent = 'viewing about';
       }
 
       function contact(ctx) {
-        document.querySelector('p')
+        document.querySelector('p#original')
           .textContent = 'viewing contact ' + (ctx.params.contactName || '');
       }
    
