@@ -1,0 +1,24 @@
+nav{
+     background-color: black; 
+   
+}
+
+li {
+
+    color: white;
+    text-decoration: none;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
